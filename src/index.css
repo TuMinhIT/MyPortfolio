@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Dart Mode Styles */
+.dart-mode {
+  background-color: #23272f !important;
+  color: #f5f5f5 !important;
+}
+.dart-mode .text-gray-900,
+.dart-mode .text-gray-800,
+.dart-mode .text-gray-700 {
+  color: #f5f5f5 !important;
+}
+.dart-mode .border-gray-700 {
+  border-color: #f5f5f5 !important;
+}
