@@ -13,7 +13,7 @@ const MySkill = ({ dart }) => {
       >
         <main
           id="main"
-          className={`max-w-3xl mx-auto  px-2 sm:px-6 py-12 sm:py-24 flex flex-col items-start gap-y-4 flex-shrink-0 `}
+          className={`max-w-3xl mx-auto px-2 sm:px-6 py-12 sm:py-12 flex flex-col items-start gap-10 flex-shrink-0 `}
         >
           <About />
           <Skills />

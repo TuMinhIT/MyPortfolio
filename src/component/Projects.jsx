@@ -23,19 +23,12 @@ const Projects = () => {
       tech: ["Flutter", "Firebase"],
       link: "https://github.com/yourusername/notes-app",
     },
-    {
-      title: "Real Estate Website",
-      description:
-        "Responsive website for real estate listings and property details.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      link: "https://github.com/yourusername/real-estate",
-    },
   ];
 
   return (
     <section
       id="projects"
-      className="flex flex-col items-start self-stretch mt-8 sm:mt-20 px-4"
+      className="flex flex-col items-start self-stretch  px-4"
       aria-labelledby="projects-heading"
     >
       <div className="flex items-center gap-2 mb-6">

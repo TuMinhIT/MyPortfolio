@@ -23,7 +23,7 @@ const PersonInfo = ({ dart, setDart }) => {
         <h1 className="text-left w-full text-2xl xl:text-4xl font-bold text-gray-900 leading-tight xl:leading-[48px] tracking-tight mb-3 xl:mb-3">
           Võ Minh Tú
         </h1>
-        <h2 className="text-left  w-full text-lg xl:text-xl font-normal text-blue-700 leading-6 xl:leading-7 tracking-tight mb-4 whitespace-nowrap xl:whitespace-nowrap">
+        <h2 className="text-left  w-full text-lg xl:text-sm font-normal text-indigo-800 leading-6 xl:leading-7 tracking-tight mb-4 whitespace-nowrap xl:whitespace-nowrap">
           <span className="inline text-sm text-gray-800">Target </span>
           Fullstack devoloper
         </h2>
@@ -50,7 +50,7 @@ const PersonInfo = ({ dart, setDart }) => {
 
         <div className="flex flex-col xl:justify-start  gap-2  ">
           <a
-            href="https://github.com/52200130MinhTu"
+            href="https://github.com/TuMinhIT"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-row gap-3  items-center cursor-pointer transition-opacity duration-300 hover:opacity-70"

@@ -2,10 +2,7 @@ import { GiSkills } from "react-icons/gi";
 
 const Skills = () => {
   return (
-    <section
-      id="skills"
-      className="h-auto flex-shrink-0 self-stretch mt-8 sm:mt-20 px-4"
-    >
+    <section id="skills" className="h-auto flex-shrink-0 self-stretch  px-4">
       {/* Header */}
       <div className="flex items-center gap-2 mb-6">
         <GiSkills className="text-xl text-[#E86A24]" />
@@ -17,28 +14,40 @@ const Skills = () => {
       {/* Skill List */}
       <ul className="list-disc list-inside space-y-2 text-gray-700 text-base leading-relaxed">
         <li>
-          <strong>Frontend:</strong> React, HTML, CSS, JavaScript
+          <strong>Frontend:</strong> React.js, HTML5, CSS3, JavaScript (ES6+),
+          Tailwind CSS, Axios, React Query ...
         </li>
         <li>
-          <strong>Backend:</strong> Node.js (Express), Java (Spring Boot), C#
-          (ASP.NET basics)
+          <strong>Backend:</strong> Node.js (Express.js), FastAPI (Python), Java
+          (Spring Boot), C# (ASP.NET Core basic)
         </li>
         <li>
-          <strong>Mobile:</strong> Flutter
+          <strong>Mobile:</strong> Flutter, React Native
         </li>
         <li>
-          <strong>Programming Languages:</strong> JavaScript, Java, Python
-          (basic data), C# ...
+          <strong>Programming Languages:</strong> JavaScript, Java, Python , C#
+          ..
         </li>
         <li>
           <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB ...
         </li>
         <li>
-          <strong>Tools & Systems:</strong> Git, Docker, VS Code, Postman ...
+          <strong>DevOps & Tools:</strong> Git/GitHub, Docker, Postman, Swagger
+          (OpenAPI), VS Code, IntelliJ IDEA
         </li>
         <li>
-          <strong>Others:</strong> Microservice architecture knowledge, web
-          application deployment ...
+          <strong>Architecture & System Design:</strong>
+          Microservices, RESTful API, authentication & authorization (JWT,
+          OAuth2), message queue (RabbitMQ)..
+        </li>
+
+        <li>
+          <strong>Deployment & Cloud:</strong> Vercel, Netlify, Docker Compose,
+          CI/CD pipelines (GitHub Actions)
+        </li>
+        <li>
+          <strong>Others:</strong> WebSocket (realtime chat), API Gateway, Load
+          Balancing
         </li>
       </ul>
     </section>
