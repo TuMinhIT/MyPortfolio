@@ -9,13 +9,7 @@ const Projects = () => {
       tech: ["React", "Node.js", "MongoDB"],
       link: "https://github.com/yourusername/ecommerce",
     },
-    {
-      title: "Movie Ticket Booking System",
-      description:
-        "Web application to book movie tickets online with seat selection and secure payment integration.",
-      tech: ["React", "Spring Boot", "MySQL"],
-      link: "https://github.com/yourusername/movie-booking",
-    },
+
     {
       title: "Notes Mobile App",
       description:

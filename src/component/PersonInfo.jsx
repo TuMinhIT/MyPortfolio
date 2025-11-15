@@ -10,14 +10,14 @@ const PersonInfo = ({ dart, setDart }) => {
   return (
     <>
       <div
-        className={` prata-regular md:h-screen md:flex md:fixed md:top-0 md:left-0 md:w-[340px] flex-col items-start text-left px-10 pt-20 xl:w-[540px] md:px-10 xl:pt-24 ${
+        className={` prata-regular md:h-screen md:flex md:fixed md:top-0 md:left-0 md:w-[340px] flex-col items-start text-left px-10 pt-0 xl:w-[540px] md:px-10 xl:pt-24 ${
           dart ? "dart-mode  md:border-r" : "md:bg-[#FCFAF6] xl:bg-[#FCFAF6]"
         }`}
         style={{ flexShrink: 0 }}
       >
         <DartMode dart={dart} setDart={setDart} />
         <img
-          className="rounded-full w-30 h-30 xl:w-40 xl:h-40 border-2 border-gray-700"
+          className="rounded-full w-30 h-30 xl:w-40 xl:h-40 border-2 border-gray-700 mb-10"
           src={assets.avatar}
         ></img>
         <h1 className="text-left w-full text-2xl xl:text-4xl font-bold text-gray-900 leading-tight xl:leading-[48px] tracking-tight mb-3 xl:mb-3">
